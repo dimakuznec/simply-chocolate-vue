@@ -5,22 +5,18 @@ import { createPinia } from 'pinia'
 // import Products from './components/Products/Products.vue'
 import App from './App.vue'
 import router from './router'
-import './assets/main.css'
-
+import './styles/main.css'
 
 // const router = createRouter ({
 //   history: createWebHistory(),
 //   routes: [{
 //     name: 'Home',
 //     path: '/',
-//     component: 'Home' 
+//     component: 'Home'
 //   }]
 // });
 
-
-
 const app = createApp(App)
-
 
 app.use(createPinia())
 app.use(router)

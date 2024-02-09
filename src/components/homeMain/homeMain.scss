@@ -1,0 +1,125 @@
+.content {
+}
+.motivation {
+}
+.visually-hidden {
+}
+.motivation-list {
+}
+.motivation-item {
+}
+
+.motivation-item:nth-child(even) .motivation-card {
+}
+
+.motivation-card {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	column-gap: clamp(30px, 10.42vw, 200px);
+	flex-direction: column;
+
+	position: relative;
+	max-width: 100%;
+}
+.container {
+}
+.motivation-card-body {
+}
+.motivation-card-title {
+	position: absolute;
+	// max-width: 400px;
+	top: 50%;
+	left: 24%;
+	transform: translate(-50%, -50%);
+	text-align: left;
+
+	color: var(--color-light);
+	padding: 20%;
+	font-size: min(1.3em, 5vw);
+	animation: moveText 2s infinite alternate;
+}
+
+.backdrop-title {
+}
+.title-medium {
+}
+.motivation-card-description {
+}
+.motivation-card-buttons {
+	display: inline-flex;
+	position: relative;
+	flex-wrap: wrap;
+	margin: -10px 0;
+	bottom: 150px;
+	padding: 20px;
+}
+.motivation-card-button {
+	background: var(--color-orange);
+	border-radius: 37px;
+	display: flex;
+	min-height: 48px;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.2px;
+	color: var(--color-light);
+	font-weight: 600;
+	line-height: 150%;
+	padding: 5px 36px;
+	text-decoration: none;
+	margin: 10px 0;
+}
+
+.motivation-card-button:not(:last-child) {
+	margin-right: 10px;
+}
+
+.button {
+}
+.transparent {
+}
+.motivation-card-image {
+	border-radius: 35px;
+}
+
+@media (max-width: 1200px) {
+	.motivation-card-title {
+	}
+
+	.motivation-card {
+		padding-block: 30px;
+	}
+}
+@media (max-width: 992px) {
+	.motivation-card-title {
+		margin: 2%;
+	}
+
+	.motivation-card-image {
+	}
+}
+@media (max-width: 480px) {
+	.motivation-card-title {
+		margin-block: -20px;
+		font-size: min(0.9em, 10vw);
+		margin-bottom: 20%;
+
+		margin-left: 10%;
+	}
+
+	.motivation-card-button {
+		flex: 1 1 100%;
+	}
+
+	.motivation-card-image {
+		border-radius: 15px;
+	}
+}
+@media (max-width: 320px) {
+	.motivation-card-image {
+		border-radius: 15px;
+	}
+	.motivation-card-title {
+		margin-bottom: auto;
+	}
+}
