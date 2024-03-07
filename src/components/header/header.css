@@ -5,6 +5,7 @@
   -moz-column-gap: 20px;
        column-gap: 20px;
   padding-inline: 32px;
+  padding-top: 20px;
 }
 
 .header-logo {
@@ -103,7 +104,51 @@ svg * {
 }
 
 .mobile-overlay__list {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.mobile-overlay__link {
+  text-decoration: none;
+}
+
+.mobile-overlay__link:hover {
+  color: var(--color-orange);
+}
+
+.cross-button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  aspect-ratio: 1;
+  width: 50px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.cross-button::before,
+.cross-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  width: 70%;
+  height: 2px;
+  background-color: var(--color-dark);
+  border-radius: 5px;
+}
+
+.cross-button::before {
+  rotate: 45deg;
+}
+
+.cross-button::after {
+  rotate: -45deg;
 }
 
 @media (max-width: 1200px) {

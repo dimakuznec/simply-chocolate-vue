@@ -1,0 +1,137 @@
+.section__chocolateDemo {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+  margin-bottom: 128px;
+}
+
+.section__header__chocolateDemo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
+.section__title__chocolateDemo {
+  text-align: center;
+}
+
+.video {
+  max-width: 100%;
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.grid_1 {
+  --gridColumn: 2;
+  display: grid;
+  grid-template-columns: repeat(var(--gridColumn), 1fr);
+  gap: 20px;
+}
+.grid_1--2 {
+  --gridColumn: 2;
+}
+.grid_1--3 {
+  --gridColumn: 3;
+}
+.grid_1--4 {
+  --gridColumn: 4;
+}
+.grid_1--5 {
+  --gridColumn: 5;
+}
+.grid_1--6 {
+  --gridColumn: 6;
+}
+.grid_1--7 {
+  --gridColumn: 7;
+}
+.grid_1--8 {
+  --gridColumn: 8;
+}
+.grid_1--9 {
+  --gridColumn: 9;
+}
+.grid_1--10 {
+  --gridColumn: 10;
+}
+.grid_1--11 {
+  --gridColumn: 11;
+}
+.grid_1--12 {
+  --gridColumn: 12;
+}
+
+.service-card__chocolateDemo {
+  display: flex;
+  min-height: 400px;
+  padding: 32px;
+  background-color: var(--color-light);
+  border: 1px solid var(--color-dark-violet);
+  border-radius: 15px;
+}
+
+@media (max-width: 1200px) {
+  .grid_1 {
+    --gridColumn: 2;
+    display: grid;
+    grid-template-columns: repeat(var(--gridColumn), 1fr);
+    gap: 20px;
+  }
+  .grid_1--2 {
+    --gridColumn: 2;
+  }
+  .grid_1--3 {
+    --gridColumn: 3;
+  }
+  .grid_1--4 {
+    --gridColumn: 4;
+  }
+  .grid_1--5 {
+    --gridColumn: 5;
+  }
+  .grid_1--6 {
+    --gridColumn: 6;
+  }
+  .grid_1--7 {
+    --gridColumn: 7;
+  }
+  .grid_1--8 {
+    --gridColumn: 8;
+  }
+  .grid_1--9 {
+    --gridColumn: 9;
+  }
+  .grid_1--10 {
+    --gridColumn: 10;
+  }
+  .grid_1--11 {
+    --gridColumn: 11;
+  }
+  .grid_1--12 {
+    --gridColumn: 12;
+  }
+  .service-card__chocolateDemo {
+    height: 256px;
+  }
+}
+@media (max-width: 992px) {
+  .grid_1 {
+    --gridColumn: 1;
+  }
+  .section__body__chocolateDemo {
+    position: relative;
+  }
+  .service-card__chocolateDemo {
+    width: auto;
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .service-card__chocolateDemo {
+    min-width: 260px;
+    height: auto;
+  }
+}/*# sourceMappingURL=chocolateDemo.css.map */

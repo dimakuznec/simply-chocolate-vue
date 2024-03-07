@@ -1,0 +1,53 @@
+.section__TopSellers {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+.section__header__TopSellers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  margin-bottom: 50px;
+}
+
+.section__title__TopSellers {
+  text-align: center;
+}
+
+.services__list__TopSellers {
+  display: flex;
+  -moz-column-gap: 18px;
+       column-gap: 18px;
+  scroll-snap-type: x mandatory;
+  margin-left: calc(var(--reviewsSliderSlideWidth) / 2 * -1);
+  margin-bottom: 173px;
+}
+
+.services__item__TopSellers {
+  min-width: var(--reviewsSliderSlideWidth);
+  scroll-snap-align: start;
+}
+
+.service-card__body__TopSellers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.reviews__actions__TopSellers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 584px;
+  margin-inline: auto;
+}
+
+.pagination__list__TopSellers {
+  display: flex;
+}/*# sourceMappingURL=TopSellers.css.map */

@@ -187,3 +187,19 @@ h6 {
 a {
 	color: var(--color-dark);
 }
+
+@mixin flex-center($isInline: false) {
+	@if $isInline {
+		display: inline-flex;
+	} @else {
+		display: flex;
+	}
+
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin square($size) {
+	width: $size;
+	aspect-ratio: 1;
+}

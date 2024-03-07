@@ -52,6 +52,8 @@
 
 .motivation-card-image {
   border-radius: 35px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (max-width: 1200px) {
@@ -76,11 +78,15 @@
   }
   .motivation-card-image {
     border-radius: 15px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media (max-width: 320px) {
   .motivation-card-image {
     border-radius: 15px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .motivation-card-title {
     margin-bottom: auto;

@@ -1,0 +1,129 @@
+.section__chocolateDemo {
+	// display: flex;
+	// flex-direction: column;
+	// row-gap: 30px;
+
+	max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+	margin-inline: auto;
+	padding-inline: var(--container-padding-x);
+	margin-bottom: 128px;
+}
+.container__chocolateDemo {
+}
+.section__header__chocolateDemo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+
+	column-gap: 40px;
+}
+.section__title__chocolateDemo {
+	text-align: center;
+}
+.puddle-bg__chocolateDemo {
+}
+.section__description__chocolateDemo {
+}
+
+.video {
+	max-width: 100%;
+	max-width: 100%;
+	// width: auto;
+	// height: auto;
+	border-radius: 15px;
+}
+
+.section__body__chocolateDemo {
+}
+.services__chocolateDemo {
+}
+.services__list__chocolateDemo {
+}
+.grid_1 {
+	--gridColumn: 2;
+	display: grid;
+	grid-template-columns: repeat(var(--gridColumn), 1fr);
+	gap: 20px;
+
+	@for $i from 2 through 12 {
+		&--#{$i} {
+			--gridColumn: #{$i};
+		}
+	}
+}
+.grid__2 {
+}
+.services__item__chocolateDemo {
+}
+.service-card__chocolateDemo {
+	display: flex;
+
+	// flex-direction: column;
+
+	min-height: 400px;
+	padding: 32px;
+	background-color: var(--color-light);
+	border: 1px solid var(--color-dark-violet);
+	border-radius: 15px;
+}
+.service-card__body__chocolateDemo {
+}
+.service-card__title__chocolateDemo {
+}
+.puddle-bg--light__chocolateDemo {
+}
+.service-card__link__chocolateDemo {
+}
+.service-card__link-icon-wrapper__chocolateDemo {
+}
+.service-card__link-label__chocolateDemo {
+}
+.service-card__link--light__chocolateDemo {
+}
+
+@media (max-width: 1200px) {
+	.grid_1 {
+		--gridColumn: 2;
+		display: grid;
+		grid-template-columns: repeat(var(--gridColumn), 1fr);
+		gap: 20px;
+
+		@for $i from 2 through 12 {
+			&--#{$i} {
+				--gridColumn: #{$i};
+			}
+		}
+	}
+
+	.service-card__chocolateDemo {
+		// width: 435px;
+		height: 256px;
+	}
+}
+@media (max-width: 992px) {
+	.grid_1 {
+		--gridColumn: 1;
+	}
+
+	.section__body__chocolateDemo {
+		position: relative;
+		// left: -100px;
+	}
+
+	.service-card__chocolateDemo {
+		width: auto;
+		height: auto;
+	}
+}
+@media (max-width: 480px) {
+	.service-card__chocolateDemo {
+		min-width: 260px;
+		height: auto;
+	}
+
+	.section__body__chocolateDemo {
+	}
+}
+@media (max-width: 320px) {
+}

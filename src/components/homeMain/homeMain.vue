@@ -21,7 +21,7 @@ import '../homeMain/homeMain.css'
 								<p></p>
 							</div>
 							<img
-								class="motivation-card-image"
+								class="motivation-card-image _img"
 								src="../imgs/chocolate-covered-cocoa-powder 1.png"
 								alt="Man with dumbbells"
 								width="1136"

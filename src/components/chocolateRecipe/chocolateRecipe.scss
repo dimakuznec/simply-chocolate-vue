@@ -1,0 +1,154 @@
+.section {
+}
+.container {
+}
+.section__header {
+	display: inline-grid;
+	align-items: center;
+	justify-content: start;
+	flex-direction: column;
+	margin: 50px;
+}
+.section__title {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.puddle-bg {
+}
+.section__description {
+}
+.section__body {
+}
+.services {
+}
+.services__list {
+	margin-bottom: 128px;
+}
+.grid {
+	--gridColumn: 4;
+	display: grid;
+	grid-template-columns: repeat(var(--gridColumn), 1fr);
+	gap: 20px;
+
+	@for $i from 4 through 12 {
+		&--#{$i} {
+			--gridColumn: #{$i};
+		}
+	}
+}
+.grid--2 {
+}
+.services__item {
+}
+.service-card {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 30px;
+	min-height: 270px;
+	padding: 50px;
+	background-color: var(--color-orange);
+	border: 1px solid #fff;
+	border-radius: 30px;
+}
+.service-card__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	row-gap: 30px;
+}
+.service-card__title {
+}
+.service-card__link {
+	display: inline-flex;
+	align-items: center;
+	column-gap: 15px;
+	font-size: 15px;
+	text-decoration: none;
+}
+.service-card__link-icon-wrapper {
+}
+.service-card__link-label {
+}
+.service-card__image {
+	align-self: center;
+}
+.service-card--accent-bg {
+	background-color: var(--color-light);
+	border: 1px solid #fd9222;
+}
+.puddle-bg--light {
+	color: var(--color-light);
+}
+.service-card--dark-bg {
+	background-color: var(--color-dark-violet);
+}
+.service-card__link--light {
+	color: var(--color-light);
+}
+.services__banner {
+}
+.banner {
+}
+.banner__inner {
+}
+.banner__body {
+}
+.banner__title {
+}
+.banner__description {
+}
+.banner__button {
+}
+.button {
+}
+.banner__image {
+}
+.hidden-mobile {
+}
+
+@media (max-width: 1200px) {
+	.section__header {
+		// flex-direction: column;
+		// row-gap: 25px;
+		text-align: center;
+	}
+
+	.section__title {
+		flex-direction: column;
+		row-gap: 25px;
+	}
+	.section__description {
+		margin-bottom: 30px;
+	}
+
+	.grid {
+		--gridColumn: 2;
+		display: grid;
+		grid-template-columns: repeat(var(--gridColumn), 1fr);
+		gap: 20px;
+
+		@for $i from 2 through 12 {
+			&--#{$i} {
+				--gridColumn: #{$i};
+			}
+		}
+	}
+}
+@media (max-width: 992px) {
+	.grid {
+		--gridColumn: 1;
+		display: grid;
+		grid-template-columns: repeat(var(--gridColumn), 2fr);
+		gap: 30px;
+	}
+
+	.services__list {
+		margin-bottom: 70px;
+	}
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 320px) {
+}
