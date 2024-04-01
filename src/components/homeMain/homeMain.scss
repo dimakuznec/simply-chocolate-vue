@@ -28,7 +28,7 @@
 }
 .motivation-card-title {
 	position: absolute;
-	// max-width: 400px;
+
 	top: 50%;
 	left: 24%;
 	transform: translate(-50%, -50%);
@@ -123,7 +123,6 @@
 		width: 32px;
 		height: 21px;
 		top: 110%;
-		// transform: translateY(-50%);
 
 		right: 35px;
 	}
@@ -154,7 +153,6 @@
 		width: 32px;
 		height: 21px;
 		top: 110%;
-		// transform: translateY(-50%);
 
 		right: 35px;
 	}
@@ -176,20 +174,18 @@
 		width: 32px;
 		height: 21px;
 		top: 110%;
-		// transform: translateY(-50%);
 
 		right: 35px;
 	}
 }
 
 .mobile-overlay__Motivation {
-	// position: fixed;
 	background-color: #fafafa;
 	box-shadow: 0 1px 1px #00000024, 0 1px 3px #0000001f, 0 2px 1px #0003;
 	border-radius: 14px;
 	padding: 32px 24px;
 	pointer-events: auto;
-	// width: 609px;
+
 	max-width: 609px;
 	height: 100%;
 	z-index: 30;
@@ -345,7 +341,6 @@
 	width: 32px;
 	height: 21px;
 	top: 110%;
-	// transform: translateY(-50%);
 
 	right: 35px;
 }
