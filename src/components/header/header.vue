@@ -76,19 +76,25 @@ export default {
 			<div class="mobile-overlay__body">
 				<ul class="mobile-overlay__list">
 					<li class="mobile-overlay__item">
-						<a class="mobile-overlay__link" href="/">About us</a>
+						<a class="mobile-overlay__link" href="#Home">Home</a>
 					</li>
 					<li class="mobile-overlay__item">
-						<a class="mobile-overlay__link" href="/">Services</a>
+						<a class="mobile-overlay__link" href="#How it’s made?"
+							>How it’s made?</a
+						>
 					</li>
 					<li class="mobile-overlay__item">
-						<a class="mobile-overlay__link" href="/">Use Cases</a>
+						<a class="mobile-overlay__link" href="#Our products"
+							>Our products</a
+						>
 					</li>
 					<li class="mobile-overlay__item">
-						<a class="mobile-overlay__link" href="/">Pricing</a>
+						<a class="mobile-overlay__link" href="#Top sellers">Top sellers</a>
 					</li>
 					<li class="mobile-overlay__item">
-						<a class="mobile-overlay__link" href="/">Blog</a>
+						<a class="mobile-overlay__link" href="#Chocolate is loved"
+							>Chocolate is loved</a
+						>
 					</li>
 				</ul>
 			</div>

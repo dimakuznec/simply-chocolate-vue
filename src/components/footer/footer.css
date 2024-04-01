@@ -1,0 +1,123 @@
+.footer__inner {
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 50px;
+  padding-bottom: 152px;
+  color: var(--color-light);
+  background-color: var(--color-dark-violet);
+  width: auto;
+}
+
+.footer__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin-bottom: 66px;
+}
+
+.footer__logo {
+  color: var(--color-light);
+  text-decoration: none;
+}
+
+.footer__logo:hover {
+  color: var(--color-orange);
+}
+
+.footer__menu-list {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  color: var(--color-light);
+}
+
+.footer__menu-link {
+  display: inline-flex;
+  align-items: center;
+  height: 30px;
+  color: var(--color-light);
+  text-decoration: none;
+}
+
+.footer__menu-link:hover {
+  color: var(--color-orange);
+}
+
+.soc1als__list {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.soc1als__link {
+  display: inline-flex;
+}
+
+.footer__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid var(--color-light-gray);
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 27px;
+}
+
+.footer__contacts-phone {
+  color: var(--color-light);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer__contacts-phone:hover {
+  color: var(--color-orange);
+}
+
+.footer__contacts-mail {
+  color: var(--color-light);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer__contacts-mail:hover {
+  color: var(--color-orange);
+}
+
+@media (max-width: 1200px) {
+  .footer__navigation {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 14px;
+  }
+}
+@media (max-width: 992px) {
+  .footer__inner {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  .footer__menu-list {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .footer__body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__contacts {
+    align-items: center;
+    text-align: center;
+  }
+}/*# sourceMappingURL=footer.css.map */

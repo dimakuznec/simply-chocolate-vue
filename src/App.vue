@@ -6,6 +6,9 @@ import chocolateRecipe from './components/chocolateRecipe/chocolateRecipe.vue'
 import chocolateDemo from './components/chocolateDemo/chocolateDemo.vue'
 import Products from './components/Products/Products.vue'
 import TopSellers from './components/TopSellers/TopSellers.vue'
+import lovedChocolate from './components/lovedChocolate/lovedChocolate.vue'
+import CoolChocolate from './components/CoolChocolate/CoolChocolate.vue'
+import Footer from './components/footer/Footer.vue'
 </script>
 
 <template>
@@ -17,6 +20,9 @@ import TopSellers from './components/TopSellers/TopSellers.vue'
 		<chocolateDemo />
 		<Products />
 		<TopSellers />
+		<lovedChocolate />
+		<CoolChocolate />
+		<Footer />
 	</main>
 </template>
 

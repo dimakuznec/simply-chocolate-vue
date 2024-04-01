@@ -44,6 +44,11 @@
   padding: 5px 36px;
   text-decoration: none;
   margin: 10px 0;
+  border: none;
+}
+
+.motivation-card-button:hover {
+  color: var(--color-dark-violet);
 }
 
 .motivation-card-button:not(:last-child) {
@@ -65,6 +70,25 @@
   .motivation-card-title {
     margin: 2%;
   }
+  .mobile-overlay__Motivation {
+    background-color: #fafafa;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1411764706), 0 1px 3px rgba(0, 0, 0, 0.1215686275), 0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    padding: 32px 24px;
+    pointer-events: auto;
+    width: 309px;
+    max-width: 609px;
+    height: 100%;
+    z-index: 30;
+    overflow: auto;
+  }
+  .buy-now-icon-bank__Motivation {
+    position: absolute;
+    width: 32px;
+    height: 21px;
+    top: 110%;
+    right: 35px;
+  }
 }
 @media (max-width: 480px) {
   .motivation-card-title {
@@ -81,6 +105,13 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .buy-now-icon-bank__Motivation {
+    position: absolute;
+    width: 32px;
+    height: 21px;
+    top: 110%;
+    right: 35px;
+  }
 }
 @media (max-width: 320px) {
   .motivation-card-image {
@@ -91,4 +122,175 @@
   .motivation-card-title {
     margin-bottom: auto;
   }
+  .buy-now-icon-bank__Motivation {
+    position: absolute;
+    width: 32px;
+    height: 21px;
+    top: 110%;
+    right: 35px;
+  }
+}
+.mobile-overlay__Motivation {
+  background-color: #fafafa;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1411764706), 0 1px 3px rgba(0, 0, 0, 0.1215686275), 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  padding: 32px 24px;
+  pointer-events: auto;
+  max-width: 609px;
+  height: 100%;
+  z-index: 30;
+  overflow: auto;
+}
+
+.mobile-overlay__Motivation::-webkit-scrollbar {
+  width: 15px;
+}
+
+.mobile-overlay__Motivation::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.mobile-overlay__Motivation::-webkit-scrollbar-thumb {
+  background-color: var(--color-orange);
+  border-radius: 20px;
+}
+
+.buy-now-modal-class-button__Motivation {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  font-size: 22px;
+  padding: 0;
+  transition: all 0.25s ease;
+  color: #000;
+  cursor: pointer;
+}
+
+.buy-now-form-modal-window-header__Motivation {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--color-orange);
+  text-align: center;
+  margin: 0 auto 32px;
+}
+
+.buy-now-form-modal-window-list__Motivation {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buy-now-form-modal-window-row__Motivation {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  background-color: var(--primary-text-color-theme-dark);
+  align-items: center;
+}
+
+.buy-now-img-btg__Motivation {
+  width: 96px;
+  height: 31px;
+  margin: auto 22px 18px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+}
+
+.buy-now-per-info-name-name__Motivation {
+  width: 100%;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 8px;
+  outline: transparent;
+  background-color: transparent;
+  font-family: var(--color-orange);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.21;
+  margin-top: 20px;
+  height: 66px;
+  padding-left: 24px;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.buy-now-per-info-name-tel__Motivation {
+  height: 66px;
+  font-size: 18px;
+  line-height: 1.22;
+  width: 83%;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 8px;
+  outline: transparent;
+  background-color: transparent;
+  font-family: var(--color-orange);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.21;
+}
+
+.buy-now-per-info__Motivation {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #000;
+  text-align: start;
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 18px;
+}
+
+.buy-now-icon-bank__Motivation {
+  position: absolute;
+  width: 32px;
+  height: 21px;
+  top: 110%;
+  right: 35px;
+}
+
+.buy-now-contact-from-message__Motivation {
+  position: relative;
+  width: 100%;
+  min-height: 91px;
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  line-height: 1.21;
+  padding: 14px 178px 60px 18px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 8px;
+  background-color: transparent;
+  outline: transparent;
+  resize: none;
+}
+
+.buy-now-form-btn-submit__Motivation {
+  border: none;
+  width: 117px;
+  height: 45px;
+  margin-top: 18px;
+  padding: 12px 28px;
+  background-color: var(--color-orange);
+  color: var(--color-light);
+  border-radius: 100px;
 }/*# sourceMappingURL=homeMain.css.map */

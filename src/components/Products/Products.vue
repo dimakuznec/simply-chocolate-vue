@@ -3,17 +3,17 @@ import '../Products/Products.css'
 </script>
 
 <template>
-	<section class="section__products container__products">
+	<section class="section__products container__products" id="Our products">
 		<header class="section__header__products">
 			<h2 class="section__title__products puddle-bg__products">Our pRODUCTS</h2>
 			<div class="section__description__products">
 				<p></p>
 			</div>
 		</header>
-		<div class="section__body__products">
+		<div class="section__body__products" id="slider">
 			<div class="reviews__products">
 				<ul class="services__list__products grid grid--2">
-					<li class="services__item__products">
+					<li class="services__item__products slider-image">
 						<article class="service-card__products">
 							<div class="service-card__body__products">
 								<a class="service-card__link__products" href="/">
@@ -37,7 +37,7 @@ import '../Products/Products.css'
 							</div>
 						</article>
 					</li>
-					<li class="services__item__products">
+					<li class="services__item__products slider-image">
 						<article
 							class="service-card__products service-card--accent-bg__products"
 						>
@@ -61,7 +61,7 @@ import '../Products/Products.css'
 							</div>
 						</article>
 					</li>
-					<li class="services__item__products">
+					<li class="services__item__products slider-image">
 						<article
 							class="service-card__products service-card--dark-bg__products"
 						>
@@ -91,7 +91,7 @@ import '../Products/Products.css'
 							</div>
 						</article>
 					</li>
-					<li class="services__item__products">
+					<li class="services__item__products slider-image">
 						<article
 							class="service-card__products service-card--accent-bg__products"
 						>
@@ -114,7 +114,7 @@ import '../Products/Products.css'
 							</div>
 						</article>
 					</li>
-					<li class="services__item__products">
+					<li class="services__item__products slider-image">
 						<article
 							class="service-card__products service-card--accent-bg__products"
 						>
@@ -137,7 +137,7 @@ import '../Products/Products.css'
 							</div>
 						</article>
 					</li>
-					<li class="services__item__products">
+					<li class="services__item__products slider-image">
 						<article
 							class="service-card__products service-card--accent-bg__products"
 						>
@@ -160,7 +160,7 @@ import '../Products/Products.css'
 							</div>
 						</article>
 					</li>
-					<li class="services__item__products">
+					<li class="services__item__products slider-image">
 						<article
 							class="service-card__products service-card--accent-bg__products"
 						>
@@ -183,7 +183,7 @@ import '../Products/Products.css'
 							</div>
 						</article>
 					</li>
-					<li class="services__item__products">
+					<li class="services__item__products slider-image">
 						<article
 							class="service-card__products service-card--accent-bg__products"
 						>
@@ -208,8 +208,8 @@ import '../Products/Products.css'
 					</li>
 				</ul>
 
-				<div class="reviews__actions">
-					<button class="reviews__arrow-button" type="button" disabled>
+				<!-- <div class="reviews__actions">
+					<button class="reviews__arrow-button arrow-left" type="button">
 						<span class="visually-hidden">Previous slide</span>
 						<svg
 							width="24"
@@ -316,7 +316,7 @@ import '../Products/Products.css'
 						</ul>
 					</div>
 
-					<button class="reviews__arrow-button" type="button">
+					<button class="reviews__arrow-button arrow-right" type="button">
 						<span class="visually-hidden">Next slide</span>
 						<svg
 							width="24"
@@ -331,7 +331,7 @@ import '../Products/Products.css'
 							/>
 						</svg>
 					</button>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>

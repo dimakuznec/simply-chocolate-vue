@@ -203,3 +203,17 @@ a {
 	width: $size;
 	aspect-ratio: 1;
 }
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-orange);
+	border-radius: 20px;
+}

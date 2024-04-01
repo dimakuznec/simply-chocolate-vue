@@ -9,7 +9,7 @@ import '../information/information.css'
 				<ul class="studies__list">
 					<li class="studies__item">
 						<div class="studies__description">
-							<div class="studies__icon">
+							<div class="studies__icon studies__animate">
 								<img src="../imgs/iconChocolate-1.svg" alt="" />
 							</div>
 							<h3>Unsurpassed taste</h3>

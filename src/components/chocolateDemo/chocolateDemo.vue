@@ -3,8 +3,11 @@ import '../chocolateDemo/chocolateDemo.css'
 </script>
 
 <template>
-	<section class="section__chocolateDemo container__chocolateDemo">
-		<header class="section__header__chocolateDemo">
+	<section
+		class="section__chocolateDemo container__chocolateDemo"
+		id="How it’s made?"
+	>
+		<header class="section__header__chocolateDemo" id="How it’s made">
 			<h2 class="section__title__chocolateDemo puddle-bg__chocolateDemo">
 				hOW IT’S made?
 			</h2>

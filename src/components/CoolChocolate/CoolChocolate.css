@@ -1,0 +1,315 @@
+.section__CoolChocolate {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+  margin-bottom: 128px;
+}
+
+.section__header__CoolChocolate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  margin-bottom: 50px;
+}
+
+.section__title__CoolChocolate {
+  text-align: center;
+}
+
+.section__body__CoolChocolate {
+  color: var(--color-light);
+}
+
+.services__list__CoolChocolate {
+  display: flex;
+  -moz-column-gap: 18px;
+       column-gap: 18px;
+  scroll-snap-type: x mandatory;
+  margin-left: calc(var(--reviewsSliderSlideWidth) / 2 * -1);
+  margin-bottom: 173px;
+}
+
+.services__item__CoolChocolate {
+  min-width: var(--reviewsSliderSlideWidth);
+  scroll-snap-align: start;
+}
+
+.service-card__CoolChocolate {
+  display: flex;
+  justify-content: space-between;
+  min-height: 200px;
+  padding-top: 32px;
+  padding-bottom: 131px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--color-orange);
+  border: 1px solid var(--color-dark-violet);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  min-width: 260px;
+  text-align: center;
+}
+
+.service-card__body__CoolChocolate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.service-card__link__CoolChocolate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button__CoolChocolate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.section__but__CoolChocolate {
+  background: var(--color-light-gray);
+  border-radius: 37px;
+  display: flex;
+  min-height: 48px;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.2px;
+  color: var(--color-dark-violet);
+  font-weight: 600;
+  line-height: 150%;
+  padding: 5px 36px;
+  text-decoration: none;
+  margin: 50px 0;
+  border: none;
+}
+
+.section__but__CoolChocolate:hover {
+  color: var(--color-orange);
+}
+
+.reviews__actions__CoolChocolate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 584px;
+  margin-inline: auto;
+}
+
+.reviews__arrow-button__CoolChocolate {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+}
+
+.reviews__pagination__CoolChocolate {
+  --reviewsSliderSlideWidth: 50px;
+}
+
+.pagination__list__CoolChocolate {
+  display: flex;
+}
+
+.pagination__item__CoolChocolate {
+  min-width: var(--reviewsSliderSlideWidth);
+  scroll-snap-align: start;
+}
+
+.pagination__button__CoolChocolate {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.is-current__CoolChocolate {
+  color: var(--color-orange);
+}
+
+@media (max-width: 992px) {
+  .services__list__CoolChocolate {
+    display: flex;
+    -moz-column-gap: 18px;
+         column-gap: 18px;
+    scroll-snap-type: x mandatory;
+    margin-bottom: 173px;
+  }
+  .service-card__CoolChocolate {
+    display: flex;
+    justify-content: space-between;
+    height: 364px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 53px;
+    padding-right: 53px;
+    background-color: var(--color-orange);
+    border: 1px solid var(--color-dark-violet);
+    border-radius: 15px;
+    width: auto;
+    overflow-y: hidden;
+  }
+  .mobile-overlay__CoolChocolate {
+    position: fixed;
+    background-color: #fafafa;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1411764706), 0 1px 3px rgba(0, 0, 0, 0.1215686275), 0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 32px 24px;
+    pointer-events: auto;
+    width: 311px;
+    max-width: 311px;
+    min-height: 471px;
+    z-index: 30;
+    overflow: auto;
+  }
+}
+@media (max-width: 480px) {
+  .service-card__CoolChocolate {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    height: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 53px;
+    padding-right: 53px;
+    background-color: var(--color-orange);
+    border: 1px solid var(--color-dark-violet);
+    border-radius: 15px;
+    width: auto;
+    overflow-y: hidden;
+    left: -10px;
+  }
+  .section__but__CoolChocolate {
+    background: var(--color-light-gray);
+    border-radius: 37px;
+    display: flex;
+    min-height: 48px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: var(--color-dark-violet);
+    font-weight: 600;
+    line-height: 150%;
+    padding: 5px 36px;
+    text-decoration: none;
+    margin: 0px;
+    border: none;
+  }
+  .mobile-overlay__CoolChocolate {
+    position: fixed;
+    background-color: #fafafa;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1411764706), 0 1px 3px rgba(0, 0, 0, 0.1215686275), 0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 32px 24px;
+    pointer-events: auto;
+    width: 311px;
+    max-width: 311px;
+    min-height: 471px;
+    z-index: 30;
+    overflow: auto;
+  }
+}
+.mobile-overlay__CoolChocolate {
+  position: fixed;
+  background-color: #fafafa;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1411764706), 0 1px 3px rgba(0, 0, 0, 0.1215686275), 0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 32px 24px;
+  pointer-events: auto;
+  width: 311px;
+  max-width: 311px;
+  min-height: 371px;
+  z-index: 30;
+  overflow: auto;
+}
+
+.review__backdrop__close__button__CoolChocolate {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  font-size: 22px;
+  padding: 0;
+  transition: all 0.25s ease;
+  color: var(--color-light);
+  cursor: pointer;
+  z-index: 5;
+}
+
+.review__modal__title__CoolChocolate {
+  font-family: var(--main-font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  width: 255px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #111;
+  margin-bottom: 32px;
+  word-break: break-word;
+  margin-top: 100px;
+}
+
+.second__part__review__modal__title__CoolChocolate {
+  color: #fd9222;
+}
+
+.input__description__CoolChocolate {
+  position: absolute;
+  width: 280px;
+  height: 52px;
+  left: 10px;
+  top: 229px;
+  padding: 14px 24px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 30px;
+  outline: transparent;
+}
+
+.review-modal__form__submit__button__CoolChocolate {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+  padding: 17px 32px;
+  font-family: var(--main-font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--color-light);
+  background-color: var(--color-orange);
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+}
+
+.BackgroundFormImg {
+  position: absolute;
+  width: 100%;
+  height: 196px;
+  left: 0px;
+  top: 0px;
+  border-radius: 15px;
+}/*# sourceMappingURL=CoolChocolate.css.map */
