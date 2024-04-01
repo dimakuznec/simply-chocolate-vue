@@ -175,12 +175,17 @@
 	line-height: 1.21;
 	padding: 8px 20px;
 	margin-top: 18px;
-	color: var(--primary-text-color-theme-light);
+	color: var(--color-dark);
 	background: #fafafa;
 	border: 1px solid rgba(17, 17, 17, 0.1);
 	border-radius: 100px;
 	transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	transform: scale(1);
+}
+
+.puddle-bg__products__button:hover {
+	background-color: var(--color-orange);
+	color: var(--color-light-gray);
 }
 
 @media (max-width: 1200px) {
@@ -231,7 +236,7 @@
 		background-color: var(--color-light);
 		border: 1px solid var(--color-dark-violet);
 		border-radius: 15px;
-		// width: 235px;
+
 		overflow-y: hidden;
 	}
 }
