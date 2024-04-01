@@ -110,6 +110,90 @@ export default {
 							</div>
 						</article>
 					</li>
+
+					<li class="services__item__lovedChocolate">
+						<article
+							class="service-card__lovedChocolate service-card--dark-bg__lovedChocolate"
+						>
+							<div class="service-card__body__lovedChocolate">
+								<a
+									class="service-card__link__lovedChocolate service-card__link--light__lovedChocolate"
+									href="/"
+								>
+									<span class="service-card__link-icon-wrapper__lovedChocolate">
+										<img src="../imgs/NataliaSus4.svg" alt="" />
+									</span>
+								</a>
+								<div class="service-card__title__lovedChocolate">
+									<h3 class="puddle-bg puddle-bg--light__lovedChocolate">
+										Natalia Sus
+									</h3>
+									<br />
+									<p class="puddle-bg puddle-bg--light__lovedChocolate">
+										The chocolate assortment was delicious. Both dark and milk
+										chocolate pieces were smooth and just right on the sweetness
+										level.
+									</p>
+								</div>
+							</div>
+						</article>
+					</li>
+
+					<li class="services__item__lovedChocolate">
+						<article
+							class="service-card__lovedChocolate service-card--dark-bg__lovedChocolate"
+						>
+							<div class="service-card__body__lovedChocolate">
+								<a
+									class="service-card__link__lovedChocolate service-card__link--light__lovedChocolate"
+									href="/"
+								>
+									<span class="service-card__link-icon-wrapper__lovedChocolate">
+										<img src="../imgs/DaniloNottingham5.svg" alt="" />
+									</span>
+								</a>
+								<div class="service-card__title__lovedChocolate">
+									<h3 class="puddle-bg puddle-bg--light__lovedChocolate">
+										Danilo Nottingham
+									</h3>
+									<br />
+									<p class="puddle-bg puddle-bg--light__lovedChocolate">
+										This is delicious. It so rich and flavorful you don’t need
+										to use as many. I love topping an apple with almond butter
+										and these chips for a snack.
+									</p>
+								</div>
+							</div>
+						</article>
+					</li>
+
+					<li class="services__item__lovedChocolate">
+						<article
+							class="service-card__lovedChocolate service-card--dark-bg__lovedChocolate"
+						>
+							<div class="service-card__body__lovedChocolate">
+								<a
+									class="service-card__link__lovedChocolate service-card__link--light__lovedChocolate"
+									href="/"
+								>
+									<span class="service-card__link-icon-wrapper__lovedChocolate">
+										<img src="../imgs/IrinaTydnyuk6.svg" alt="" />
+									</span>
+								</a>
+								<div class="service-card__title__lovedChocolate">
+									<h3 class="puddle-bg puddle-bg--light__lovedChocolate">
+										Irina Tydnyuk
+									</h3>
+									<br />
+									<p class="puddle-bg puddle-bg--light__lovedChocolate">
+										This is simply the best chocolate around, and I'm just
+										thrilled to support a local company! Best local chocolate -
+										world class :)
+									</p>
+								</div>
+							</div>
+						</article>
+					</li>
 				</ul>
 			</div>
 
