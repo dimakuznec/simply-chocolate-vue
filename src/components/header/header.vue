@@ -1,7 +1,5 @@
 <script>
-// import { RouterView } from "vue-router";
 import '../header/header.css'
-// import "../header/header";
 
 export default {
 	data() {

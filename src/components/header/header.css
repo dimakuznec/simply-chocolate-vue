@@ -130,6 +130,7 @@ svg * {
   width: 50px;
   border-radius: 20px;
   position: relative;
+  margin-right: 12px;
 }
 
 .cross-button::before,

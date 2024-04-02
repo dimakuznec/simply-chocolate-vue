@@ -47,7 +47,6 @@ svg * {
 .is-current {
 }
 .header-actions {
-	// display: none;
 }
 .header-book-button {
 }
@@ -65,9 +64,8 @@ svg * {
 	row-gap: 4px;
 	border: none;
 	background: none;
-	// display: none;
-	// border-radius: var(--border-radius);
 }
+
 .visually-hidden {
 	position: absolute;
 	width: 1px;
@@ -143,6 +141,7 @@ svg * {
 	border-radius: 20px;
 
 	position: relative;
+	margin-right: 12px;
 }
 
 .cross-button::before,
@@ -190,10 +189,6 @@ svg * {
 	.header {
 		padding-top: 10px;
 	}
-
-	// .header-menu {
-	// 	display: none;
-	// }
 
 	.header-menu-list {
 		column-gap: 24px;
