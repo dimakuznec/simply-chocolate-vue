@@ -12,92 +12,68 @@ export default {
 		toggleMenu() {
 			this.burgerActive = !this.burgerActive
 			this.menuActive = !this.menuActive
-			document.body.classList.toggle('lock')
+			if (this.menuActive) {
+				document.body.classList.add('lock')
+			} else {
+				document.body.classList.remove('lock')
+			}
 		},
 	},
 }
 </script>
 
 <template>
-	<header class="header">
-		<a class="header-logo" href="/">
-			<img
-				class="header-logo-image"
-				src="../imgs/iconChocolate-1.svg"
-				alt="Kropp Logo"
-				width="135"
-				height="25"
-				loading="lazy"
-			/>
-		</a>
-		<nav class="header-menu hidden-menu" :class="{ active: menuActive }">
-			<ul class="header-menu-list">
-				<li class="header-menu-item">
-					<a class="header-menu-link is-current" href="/">Home</a>
-				</li>
-				<li class="header-menu-item">
-					<a class="header-menu-link" href="/">How it’s made?</a>
-				</li>
-				<li class="header-menu-item">
-					<a class="header-menu-link" href="/">Our products</a>
-				</li>
-				<li class="header-menu-item">
-					<a class="header-menu-link" href="/">Top sellers</a>
-				</li>
-				<li class="header-menu-item">
-					<a class="header-menu-link" href="/">Chocolate is loved</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="header-actions">
-			<button
-				class="header-burger-button"
-				@click="toggleMenu"
-				:class="{ active: burgerActive }"
-				onclick="toggleMenu.showModal()"
-				type="button"
-				title="Open menu"
-			>
-				<span class="visually-hidden">Open menu</span>
-				<span class="header-burger-button-line"></span>
-				<span class="header-burger-button-line"></span>
-				<span class="header-burger-button-line"></span>
-			</button>
-		</div>
-
-		<dialog class="mobile-overlay visible-mobile" id="toggleMenu">
-			<form class="mobile-overlay__close-button-wrapper" method="dialog">
-				<button class="mobile-overlay__close-button cross-button" type="submit">
-					<span class="visually-hidden">Close navigation menu</span>
-				</button>
-			</form>
-			<div class="mobile-overlay__body">
-				<ul class="mobile-overlay__list">
-					<li class="mobile-overlay__item">
-						<a class="mobile-overlay__link" href="#Home">Home</a>
-					</li>
-					<li class="mobile-overlay__item">
-						<a class="mobile-overlay__link" href="#How it’s made?"
-							>How it’s made?</a
-						>
-					</li>
-					<li class="mobile-overlay__item">
-						<a class="mobile-overlay__link" href="#Our products"
-							>Our products</a
-						>
-					</li>
-					<li class="mobile-overlay__item">
-						<a class="mobile-overlay__link" href="#Top sellers">Top sellers</a>
-					</li>
-					<li class="mobile-overlay__item">
-						<a class="mobile-overlay__link" href="#Chocolate is loved"
-							>Chocolate is loved</a
-						>
-					</li>
-				</ul>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<a href="#" class="header__logo">
+						<img
+							src="../imgs/iconChocolate-1.svg"
+							alt="Kropp Logo"
+							width="135"
+							height="25"
+							loading="lazy"
+						/>
+					</a>
+					<button
+						class="header__burger"
+						@click="toggleMenu"
+						:class="{ active: burgerActive }"
+						onclick="toggleMenu.showModal()"
+						type="button"
+						title="Open menu"
+					>
+						<span class="visually-hidden">Open menu</span>
+						<span></span>
+					</button>
+					<nav class="header__menu" :class="{ active: menuActive }">
+						<ul class="header__list">
+							<li>
+								<a href="#Home" class="header__link">Home</a>
+							</li>
+							<li>
+								<a href="#How it’s made?" class="header__link"
+									>How it’s made?</a
+								>
+							</li>
+							<li>
+								<a href="#Our products" class="header__link">Our products</a>
+							</li>
+							<li>
+								<a href="#Top sellers" class="header__link">Top sellers</a>
+							</li>
+							<li>
+								<a href="#Chocolate is loved" class="header__link"
+									>Chocolate is loved</a
+								>
+							</li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-		</dialog>
-	</header>
+		</header>
+	</div>
 </template>
 
 <style scoped></style>
