@@ -104,10 +104,10 @@
   .header__menu {
     position: fixed;
     top: -100%;
-    left: 0;
-    width: 100%;
+    left: 60%;
+    width: 40%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.7607843137);
+    background-color: #fff;
     padding: 90px 20px 20px 20px;
     transition: all 0.3s ease 0s;
     overflow: auto;
@@ -156,5 +156,22 @@
   }
   .header__link {
     font-size: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .header__menu {
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    padding: 90px 20px 20px 20px;
+    transition: all 0.3s ease 0s;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .header__link {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=header.css.map */
